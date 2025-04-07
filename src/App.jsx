@@ -242,7 +242,7 @@ function App() {
 
         </div>
         :
-        <div>Nothing to display</div>
+        <div className='text-center text-danger-emphasis fs-1'>Nothing to display</div>
       }
 
     </div>
