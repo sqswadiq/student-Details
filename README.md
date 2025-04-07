@@ -1,12 +1,16 @@
-# React + Vite
+# Student Details Management App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple React.js CRUD application for managing student records. It allows users to add, edit, delete, search, and filter student details. The app also includes a fee status feature using checkboxes to mark students as "Paid" or "Unpaid".
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Features:-
+> Add new student details (Name, Age, Course, Result)
+> Edit existing student records
+> Delete student entries
+> Search students by name or result
+> Filter students by result (Pass/Fail)
+> Mark fee status as Paid/Unpaid using a checkbox
+> Display lists of students by fee status (Paid / Unpaid)
+> Data is persisted using localStorage
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
